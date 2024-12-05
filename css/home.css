@@ -1,0 +1,50 @@
+body{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-seri
+}
+
+h1 {
+    color: #17a2b8;
+}
+
+
+.container div{
+    background-color: #24353f;
+    box-shadow: 2px 2px 10px 10px ;
+    width: 60%;
+}
+
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+
+input{
+    width: 100%;
+    border: solid 1px white;
+    outline: none;
+    height: 34px;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+
+input:focus{
+    outline: solid 1px orange;
+    border: none;
+}
+input::placeholder{
+    color:gray;
+  
+}
+
+.header{
+    background-color: #24353f;
+    box-shadow: 2px 2px 10px 10px ;
+}
